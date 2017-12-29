@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_media_recorder_audio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_can_use"
+        android:text="回音消除是否可用"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+<Switch
+    android:id="@+id/sw"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/audio_recode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="recode"/>
+
+    <Button
+        android:id="@+id/audio_paly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="play"/>
+
+
+    <Button
+        android:id="@+id/demo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="demo2"/>
+</LinearLayout>
